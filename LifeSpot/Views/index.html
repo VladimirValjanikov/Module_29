@@ -19,15 +19,15 @@
         // вывод данных сессии в консоль
         sessionLog();
 
-        // функция для получения пользовательского ввода    
+        // функция для получения пользовательского ввода
         const inputParseFunction = function () {
             return document.getElementsByTagName('input')[0].value.toLowerCase();
         }
     </script>
 
 </head>
-    
-    <!--Хедер страницы находится над тегом body-->
+
+<!--Хедер страницы находится над тегом body-->
 <header id="header-index">
     <h1>LifeSpot - прямые трансляции с улиц</h1>
     <p>Покажем, что происходит прямо сейчас</p>
@@ -42,21 +42,22 @@
 
 " size=50%>
 </header>
-
-    <body>
-        <div class="bordered">
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/srlpC5tmhYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h3>Нью-Йорк, Брайант Парк</h3>
-            </div>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/wCcMcaiRbhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h3>Санкт-Петербург, Невский Проспект</h3>
-            </div>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/muVgPUnU7qA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h3>Лондон, автобусный маршрут</h3>
-            </div>
+<!--SIDEBAR-->
+<body>
+    <div class="bordered">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/srlpC5tmhYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Нью-Йорк, Брайант Парк</h3>
         </div>
-    </body>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wCcMcaiRbhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Санкт-Петербург, Невский Проспект</h3>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/muVgPUnU7qA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Лондон, автобусный маршрут</h3>
+        </div>
+    </div>
+</body>
+<!--FOOTER-->
 </html>
